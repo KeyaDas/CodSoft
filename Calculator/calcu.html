@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="calcu.css" rel="stylesheet" type="text/css">
+    <link href="utils.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="main m-w-20 mx-auto flex flex-col">
+        
+        <div class="row">
+            <h2>CALCULATOR</h2>
+            <input type="text" id="view">
+        </div>
+        <div class="row">
+            <button class="button spcl">C</button>
+            <button class="button spcl" onclick="display('%')">%</button>
+            <button class="button spcl" onclick="power()">x<sup>3</sup></button>
+            <button class="button spcl" onclick="display('/')">/</button>
+        </div>  
+        <div class="row">
+            <button class="button" onclick="display('7')">7</button>
+            <button class="button" onclick="display('8')">8</button>   
+            <button class="button" onclick="display('9')">9</button>
+            <button class="button spcl" onclick="display('*')">*</button>                           
+        </div>           
+        <div class="row">
+            <button class="button" onclick="display('4')">4</button>
+            <button class="button" onclick="display('5')">5</button>
+            <button class="button" onclick="display('6')">6</button>
+            <button class="button spcl" onclick="display('+')">+</button>  
+        </div>            
+        <div class="row">
+            <button class="button" onclick="display('1')">1</button>   
+            <button class="button" onclick="display('2')">2</button>       
+            <button class="button" onclick="display('3')">3</button>
+            <button class="button spcl" onclick="display('-')">-</button>      
+        </div>        
+        <div class="row">
+            <button class="button" onclick="display('00')">00</button>
+            <button class="button" onclick="display('0')">0</button>
+            <button class="button" onclick="display('.')">.</button>
+            <button class="button spcl" onclick="calcu()">=</button>
+        </div>    
+    </div>
+
+    <script src="calcu.js"></script>
+</body>
+</html>
