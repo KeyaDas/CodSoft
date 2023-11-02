@@ -1,0 +1,55 @@
+.main{
+    display: flex;
+    width: 250px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(70, 69, 69, 0.541);
+    box-shadow: 0 -3px 3px rgba(206, 212, 206, 0.467), 0 3px 3px rgba(206, 212, 206, 0.467), -3px 0 3px rgba(206, 212, 206, 0.467), 3px 0 3px rgba(206, 212, 206, 0.467);
+}
+
+h2{
+    justify-content: center;
+    color: rgb(234, 222, 201);
+}
+body, html{
+    height: auto; 
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(11, 18, 26);  
+}
+.spcl{
+    background-color: rgba(243, 140, 23, 0.852);
+}
+.button{
+    padding: 5px;
+    width: 20%;
+    height: 47px;
+    margin: 0 3px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: medium;
+    border-style: none;
+    box-shadow: 0 -2px 2px rgba(131, 133, 131, 0.591), 0 2px 2px rgba(206, 212, 206, 0.467), -2px 0 2px rgba(206, 212, 206, 0.467), 2px 0 2px rgba(206, 212, 206, 0.467);
+}
+.row{
+    display: flex;
+    margin-top: 7px;
+    width: 100%;
+    justify-content: center;
+}
+#view{
+    width: 85%;
+    height: 36px;
+    padding: 2px;
+    border-radius: 15px;
+    border-style: none ;
+    box-shadow: 0 -2px 2px rgba(131, 133, 131, 0.591), 0 2px 2px rgba(206, 212, 206, 0.467), -2px 0 2px rgba(206, 212, 206, 0.467), 2px 0 2px rgba(206, 212, 206, 0.467);
+    background-color: rgb(230, 226, 222);
+    font-size: medium;
+    font-weight: 500;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
